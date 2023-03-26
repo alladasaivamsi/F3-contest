@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#content1 {
+    display: grid;
+    justify-content: start;
+    gap: 30px;
+    grid-template-columns: repeat(1 , 100%);
+    padding-top: 20px;
+}
+
+.section1 {
+    width: 100%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.posts-id span {
+    font-weight: 600;
+}
+
+.posts-title span {
+    font-weight: 600;
+}
+
+.posts-body span {
+    font-weight: 600;
+}
+
+.posts-tags span {
+    font-weight: 600;
+}
+
+.btn button {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px 0px;
+} 
+
+.container {
+    margin: 20px;
+}
+
+.products-id span {
+    font-weight: 600;
+}
+
+.products-title span {
+    font-weight: 600;
+}
+
+.products-description span {
+    font-weight: 600;
+}
+
+.products-price span {
+    font-weight: 600;
+}
+
+.products-discountpercentage span {
+    font-weight: 600;
+}
+
+#content2 {
+    display: grid;
+    justify-content: start;
+    gap: 30px;
+    grid-template-columns: repeat(1 , 100%);
+    padding-top: 20px;
+}
+
+.section2 {
+    width: 100%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.promise1Data {
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.promise2Data {
+    margin-top: 20px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.promise3Data {
+    margin-top: 20px;
+    background-color: lightcyan;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#content3 {
+    display: grid;
+    justify-content: start;
+    gap: 30px;
+    grid-template-columns: repeat(1 , 100%);
+    padding-top: 20px;
+}
+
+.section3 {
+    width: 100%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.promise3Data {
+    margin-top: 20px;
+}
+
+.todos-id span {
+    font-weight: 600;
+} 
+
+.todos-completed span {
+    font-weight: 600;
+}
+
+.todos-todo span {
+    font-weight: 600;
+}
+
+.todos-userId span {
+    font-weight: 600;
+}
+
+.promise1Data {
+    display: none;
+}
+
+.promise2Data {
+    display: none;
+}
+
+.promise3Data {
+    display: none;
+}
